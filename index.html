@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | Advice generator app</title>
+</head>
+<body class="bg-gray-900 w-[100vw] h-[100vh] flex justify-center items-center">
+  <main class="w-[350px] h-[400px] relative lg:w-[550px]">
+    <div class=" bg-[#323a49] flex flex-col justify-start items-center gap-5 w-[350px] h-[350px] rounded-[15px] lg:w-[550px]">
+
+      <div class=" flex flex-col justify-center items-center lg:w-[550px]  h-[310px]">
+        <h1 id="h1Id" class="text-start text-[#52ffa8] text-sm font-bold tracking-[0.25rem] ">ADVICE #117</h1>
+        <p id="pId" class="text-[#cee3e9] text-3xl text-center lg:text-[2.25rem] mt-5">"It is easy to sit up and take notice, what's difficult is getting up and taking action"</p>
+        <img class="lg:hidden mt-8" src="images/pattern-divider-mobile.svg" alt="pattern-divider-mobile">
+        <img class="hidden lg:block lg:mt-8" src="images/pattern-divider-desktop.svg" alt="">
+      </div>
+
+      <button id="buttonId" class="hover:rotate-45 hover:scale-110 hover:bg-[#FF007F] transition-all hover:cursor-pointer w-[80px] h-[80px] bg-[#52ffa8] rounded-full flex justify-center items-center absolute bottom-[3%]">
+        <img class="w-[33px]" src="images/icon-dice.svg" alt="icon-dice">
+      </button>
+    </div>
+  </main>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
